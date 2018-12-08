@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "deploy": "gcloud config set project mileum-technologies && gcloud app deploy"
+    }
+}
