@@ -1,5 +1,5 @@
 {
     "scripts": {
-        "deploy": "gcloud config set project mileum-technologies && gcloud app deploy"
+        "deploy": "gcloud auth login && gcloud config set project mileum-technologies && gcloud app deploy"
     }
 }

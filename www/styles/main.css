@@ -47,7 +47,11 @@
 
 .hm-gradient .full-bg-img {
   background: rgba(42, 27, 161, 0.7);
-  background: linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+  background: linear-gradient(
+    45deg,
+    rgba(42, 27, 161, 0.7),
+    rgba(29, 210, 177, 0.7) 100%
+  );
 }
 
 @media (max-width: 450px) {
@@ -61,10 +65,43 @@
   opacity: 0.7;
 }
 
-#pricing .card-image {
+/* #pricing .card-image {
   background: url("../img/architecture.jpg") no-repeat center center;
+} */
+
+.pricing-startup.card-image {
+  background: url("http://wonderfulengineering.com/wp-content/uploads/2014/10/construction-6-610x457.jpg")
+    no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.pricing-company.card-image {
+  background: url("https://dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Office_Buildings_Demand_Response_XL_721_420_80_s_c1.jpg")
+    no-repeat center center;
+  background-size: 100% 100%;
 }
 
 #pricing ul li {
   font-size: 1.1em;
+}
+
+.contact-link {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.m-b-5 {
+  margin-bottom: 5px !important;
+}
+
+.hover-underline:hover {
+  text-decoration: underline;
+}
+
+.m-5-10 {
+  margin: 5px 10px;
+}
+
+.m-t-16 {
+  margin-top: 16px;
 }
